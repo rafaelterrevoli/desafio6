@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+}
+
+.contenedor-main {
+  display: flex;
+}
+
+.contactos {
+  display: flex;
+  flex-direction: column;
+  height: 100vb;
+  width: 25%;
+}
+
+.caja-usuario {
+  display: flex;
+  border: 2px solid #ccc;
+  justify-content: space-between;
+  padding: 8px;
+  margin: 0;
+  align-items: center;
+}
+
+.imagen-usuario {
+  display: flex;
+  border-radius: 100%;
+  padding: 0;
+  margin: 0;
+  width: 40px;
+}
+
+.texto-1-usuario {
+  font: 18px Verdana;
+  padding: 0;
+  margin: 0;
+}
+
+.texto-2-usuario {
+  color: #ccc;
+  font-size: 12px;
+  padding: 0;
+  margin: 0
+}
+
+.caja-boton {
+  display: flex;
+  border: 2px solid #ccc;
+  justify-content: center;
+  padding: 40px;
+  align-items: center;
+}
+
+.boton {
+  padding: 10px 20px;
+  background-color: #A491D2;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  font-size: large;
+}
+
+
+.caja-contactos {
+  display: flex;
+  border: 2px solid #ccc;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 0;
+  align-items: center;
+}
+
+.imagen-contactos {
+  border-radius: 100%;
+  width: 60px;
+  padding: 0;
+  margin: 0
+}
+
+.caja-2-contactos {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  width: 70%;
+}
+
+.texto-1-contactos {
+  font: 18px Verdana;
+  padding: 0px;
+  margin: 0;
+}
+
+.texto-2-contactos {
+  font: 14px Verdana;
+  padding: 0px;
+  margin: 0px;
+}
+
+.principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+
+.imagen-principal {
+  display: flex;
+  padding: 25px;
+  width: 300px;
+}
+
+.texto-1 {
+  display: flex;
+  margin: 0;
+  font: 45px Verdana;
+  text-align: center;
+}
+
+.texto-2 {
+  display: flex;
+  font: 20px Verdana;
+  margin: 5px;
+  text-align: center;
+}
+
+.texto-2-negritas{
+  font-weight: bold;
+}
